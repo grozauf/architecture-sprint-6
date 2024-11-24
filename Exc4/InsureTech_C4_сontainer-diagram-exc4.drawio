@@ -1,12 +1,12 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" modified="2024-11-23T05:13:23.602Z" etag="_ggASpNZqp43RAWqptyB" version="24.6.4" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" modified="2024-11-24T03:50:45.717Z" etag="WxFm0pC2QR21Q8ifsnVm" version="24.6.4" type="device">
   <diagram id="51zmUan4mFf6pz3q3UUt" name="InsureTech">
-    <mxGraphModel dx="624" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2308" dy="2755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <object placeholders="1" c4Name="InsureTech Prod" c4Type="SystemScopeBoundary" c4Application="Виртуальная машина" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-1">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-            <mxGeometry x="420" y="-30" width="1350" height="1280" as="geometry" />
+            <mxGeometry x="420" y="-270" width="1350" height="1520" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="core-db" c4Container="Container" c4Technology="PostgreSQL" c4Description="БД используется для хранения тарифов страховых компаний, а также заявок клиентов на страховые продукты" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="uZ0quFO-MIEIE11IO5jD-2">
@@ -253,7 +253,7 @@
         <mxCell id="O625oqBtfiZ9-V5kASmS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.137;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uZ0quFO-MIEIE11IO5jD-3" target="O625oqBtfiZ9-V5kASmS-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O625oqBtfiZ9-V5kASmS-5" value="Отправка событий:&amp;nbsp;&lt;div&gt;- по созданию/удалению страховки&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0a23&quot;&gt;- по созданию/отмене заявки на ОСАГО&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0a23&quot;&gt;(Transactional Outbox)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="O625oqBtfiZ9-V5kASmS-4" vertex="1" connectable="0">
+        <mxCell id="O625oqBtfiZ9-V5kASmS-5" value="Отправка событий:&amp;nbsp;&lt;div&gt;- по созданию/удалению страховки&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0a23&quot;&gt;- по созданию/отмене заявки на ОСАГО&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0a23&quot;&gt;Transactional Outbox&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="O625oqBtfiZ9-V5kASmS-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1724" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -308,7 +308,7 @@
         <mxCell id="Ui4M2y6EVQi9xwfyYKzZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.319;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.144;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ui4M2y6EVQi9xwfyYKzZ-2" target="O625oqBtfiZ9-V5kASmS-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ui4M2y6EVQi9xwfyYKzZ-9" value="&lt;b&gt;&lt;font color=&quot;#ff0808&quot;&gt;Отправка события&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;div&gt;по статусу заявки на ОСАГО&lt;/div&gt;&lt;div&gt;(в финальном статусе обогащается данными&lt;/div&gt;&lt;div&gt;по предложению от страховой)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ui4M2y6EVQi9xwfyYKzZ-7">
+        <mxCell id="Ui4M2y6EVQi9xwfyYKzZ-9" value="&lt;b&gt;&lt;font color=&quot;#ff0808&quot;&gt;Отправка события&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;div&gt;по статусу заявки на ОСАГО&lt;/div&gt;&lt;div&gt;(в финальном статусе обогащается данными&lt;/div&gt;&lt;div&gt;по предложению от страховой)&lt;/div&gt;&lt;div&gt;&lt;b&gt;Transactional Outbox&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ui4M2y6EVQi9xwfyYKzZ-7">
           <mxGeometry x="-0.3628" y="-3" relative="1" as="geometry">
             <mxPoint y="16" as="offset" />
           </mxGeometry>
